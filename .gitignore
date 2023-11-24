@@ -22,3 +22,16 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/.idea/.gitignore
+/out/production/JavaBasic/org/example/.idea/.gitignore
+/out/production/JavaBasic/org/example/.gitignore
+/out/production/JavaBasic/org/example/JavaBasic.iml
+/JavaBasic.iml
+/out/production/JavaBasic/org/example/LICENSE
+/.idea/misc.xml
+/out/production/JavaBasic/org/example/.idea/misc.xml
+/.idea/modules.xml
+/out/production/JavaBasic/org/example/.idea/modules.xml
+/out/production/JavaBasic/org/example/README.md
+/.idea/vcs.xml
+/out/production/JavaBasic/org/example/.idea/vcs.xml
