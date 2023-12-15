@@ -43,11 +43,26 @@ public class Sort {
     }
 
     public static void bubble(int[] in) {
-
+        for (int i = 0; i < in.length; i++) {
+            for (int j = 0; j < in.length - 1; j++) {
+                if (in[j] > in[j + 1]) {
+                    swapTwoValue(in, j, j + 1);
+                }
+            }
+        }
     }
 
     public static void choose(int[] in) {
-
+        int min;
+        for (int i = 0; i < in.length; i++) {
+            min = i;
+            for (int j = i; j < in.length; j++) {
+                if (in[min] > in[j]) {
+                    min = j;
+                }
+            }
+            swapTwoValue(in, min, i);
+        }
     }
 
     public static void main(String[] args) {
@@ -56,7 +71,8 @@ public class Sort {
             System.out.print(i + ",");
         }
         System.out.println();
-        fast(in, 0, in.length - 1);
+//        fast(in, 0, in.length - 1);
+        bubble(in);
         for (int i : in) {
             System.out.print(i + ",");
         }

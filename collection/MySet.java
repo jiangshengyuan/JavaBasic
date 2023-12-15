@@ -1,10 +1,7 @@
 package org.example.collection;
 
-import com.sun.xml.internal.ws.util.QNameMap;
-
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.Map;
 import java.util.Set;
 
 public class MySet {
